@@ -8,7 +8,7 @@
   },
   "author": "Muhammad Hassan Raza And Abeera Arshad",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^29.3.1"
   }
 }
