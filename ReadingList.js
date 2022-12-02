@@ -19,10 +19,15 @@ function addbook(b){
     myBookList.push(b);
 }
 
+function additionalbook(c){
+    myBookList.push(c);
+}
+
 
 module.exports = {
     getbook,
     addbook,
+    additionalbook,
     meriBook
 }
 

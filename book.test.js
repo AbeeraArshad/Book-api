@@ -19,3 +19,14 @@ var b = new Mm.meriBook("harry Potter","RK Rolling");
     
 })
 
+test('Given that I have an empty list, when I add additional books to the list I expect the numberRead to return the total number of books in my list.',()=>{
+
+    var b = new Mm.meriBook("harry Potter","RK Rolling");
+    var c = new Mm.meriBook("Luicfer Moring Start","God Ailen")
+
+    Mm.addbook(b);
+    Mm.additionalbook(c);
+
+    expect(Mm.getbook()).toBe(3);
+
+})
